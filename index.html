@@ -8,29 +8,27 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.css"
     />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
   <body>
     <!-- Nav bar -->
-    <div class="container" id="nav">
+    <div class="container" id="nav" style="display: block;">
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item" id="home">
-            <p class="menu-label">
-              Justice Phan
-            </p>
-          </a>
-          <a class="navbar-item"><p>Portfolio</p></a>
-          <a class="navbar-item"><p>Resume</p></a>
-          <a class="navbar-item"> <p>Contact</p></a>
-          <a class="navbar-item" href="https://github.com/JustPhvn"
-            ><p>GitHub</p></a
-          >
+          <p class="navbar-item" id="home">
+            Justice Phan
+          </p>
+
+          <a class="navbar-item">Portfolio</a>
+          <a class="navbar-item">Resume</a>
+          <a class="navbar-item">Contact</a>
+          <a class="navbar-item" href="https://github.com/JustPhvn">GitHub</a>
         </div>
       </nav>
     </div>
     <!-- Portfolio -->
-    <div class="container" id="portfolio" style="display: none;">
+    <div class="container" id="Portfolio" style="display: block;">
       <div class="tile is-ancestor">
         <div class="tile is-parent">
           <div class="card">
@@ -243,7 +241,7 @@
       </div>
     </div>
     <!-- Contact -->
-    <div class="container" style="display: none;">
+    <div class="container" id="Contact" style="display: none;">
       <div class="card">
         <header class="card-header">
           <h1 class="card-header-title">
@@ -279,11 +277,27 @@
         </div>
       </div>
     </div>
+    <!-- Resume -->
+    <div class="container" id="Resume" style="display: none;">
+      <div class="column is-centered">
+        <div class="card">
+          <div class="card-image">
+            <iframe
+              src="./assets/images/RESUME.pdf"
+              frameborder="0"
+              width="100%"
+              height="1150px"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
