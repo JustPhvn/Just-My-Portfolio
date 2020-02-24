@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.css"
+    />
+  </head>
+
+  <body>
+    <!-- Nav bar -->
+    <div class="container" id="nav">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" id="home">
+            <p class="menu-label">
+              Justice Phan
+            </p>
+          </a>
+          <a class="navbar-item"><p>Portfolio</p></a>
+          <a class="navbar-item"><p>Resume</p></a>
+          <a class="navbar-item"> <p>Contact</p></a>
+          <a class="navbar-item" href="https://github.com/JustPhvn"
+            ><p>GitHub</p></a
+          >
+        </div>
+      </nav>
+    </div>
+    <!-- Portfolio -->
+    <div class="container" id="portfolio" style="display: none;">
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-3by2">
+                <img
+                  src="./assets/images/Bootstrap.png"
+                  alt="Placeholder image"
+                />
+              </figure>
+            </div>
+
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">
+                    <a href="https://justphvn.github.io/Just-Lite-Bootfolio/"
+                      >Bootstrap Portfolio</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="content">
+                Used Bootstrap to create a portfolio site with a navbar,
+                responsive layout, and responsive images. Modified Bootstrap
+                components in CSS.
+                <a href="https://github.com/JustPhvn/Just-Lite-Bootfolio"
+                  >GitHub</a
+                >
+
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-3by2">
+                <img
+                  src="./assets/images/PassGen.png"
+                  alt="Placeholder image"
+                />
+              </figure>
+            </div>
+
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">
+                    <a href="https://justphvn.github.io/Just-PassGen-js/"
+                      >Password Generator</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="content">
+                Password generator with checkboxes and a form to create
+                password. Has options for lowercase characters, uppercase
+                characters, special characters, numbers, and the length of the
+                password (min 8 characters, max 128 characters). Will alert user
+                if no password options are chosen and if length is too small or
+                too large.
+                <a href="https://github.com/JustPhvn/Just-PassGen-js">GitHub</a>
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-3by2">
+                <img
+                  src="./assets/images/CodeQuiz.png"
+                  alt="Placeholder image"
+                />
+              </figure>
+            </div>
+
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">
+                    <a href="https://justphvn.github.io/Just-ACodeQuiz-js/"
+                      >Coding Quiz (Lite)</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="content">
+                Quiz that uses DOM manipulation to go through the quiz. Has a
+                timer that starts on quiz start and stops on quiz end. Quiz
+                taker can save score at the end of the quiz and take the quiz
+                again.
+                <a href="https://github.com/JustPhvn/Just-ACodeQuiz-js"
+                  >GitHub</a
+                >
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-3by2">
+                <img
+                  src="./assets/images/Scheduler.png"
+                  alt="Placeholder image"
+                />
+              </figure>
+            </div>
+
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">
+                    <a href="https://justphvn.github.io/JustADayPlanner/"
+                      >Day Planner</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="content">
+                Planner that has calendar timeslots for traditional business
+                hours of 9am to 5pm. Calendar items can be saved using the
+                button to the right of the slot. Items persist through reloads
+                and calendar sets timeslot style depending on load time.
+                Timeslot styles can be past hours, current hour, or future
+                hours.
+                <a href="https://github.com/JustPhvn/JustADayPlanner">GitHub</a>
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-3by2">
+                <img
+                  src="./assets/images/WeatherDash.png"
+                  alt="Placeholder image"
+                />
+              </figure>
+            </div>
+
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">
+                    <a href="https://justphvn.github.io/JustAnotherWeatherDash/"
+                      >Weather Dashboard</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="content">
+                Weather dashboard that brings up current weather and 5-day
+                forecast. Also saves searches to the sidebar and on reload opens
+                the last searched city. Changes UV background color depending on
+                UV value that comes back.
+                <a href="https://github.com/JustPhvn/JustAnotherWeatherDash"
+                  >GitHub</a
+                >
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-3by2">
+                <img src="./assets/images/Mood.png" alt="Placeholder image" />
+              </figure>
+            </div>
+
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">
+                    <a href="https://justphvn.github.io/ProjectOne-Vibes/"
+                      >Mood Quiz</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div class="content">
+                User will fill out a moood questionnaire that will randomly
+                generate a gif and quote of Kanye or Donald. The gif will be
+                accompanied by a Kanye song.
+                <a href="https://github.com/JustPhvn/ProjectOne-Vibes"
+                  >GitHub</a
+                >
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="container" style="display: none;">
+      <div class="card">
+        <header class="card-header">
+          <h1 class="card-header-title">
+            Contact
+          </h1>
+        </header>
+        <div class="card-content">
+          <div class="content">
+            <h3>
+              Email:
+              <a href="mailto:justicequyphan@gmail.com"
+                >justicequyphan@gmail.com</a
+              >
+            </h3>
+            <!-- <div class="columns">
+              <div class="column is half">
+                <input
+                  class="input is-rounded"
+                  type="email"
+                  placeholder="Email@email.com"
+                />
+              </div>
+              <div class="column is half">
+                <input
+                  class="input is-rounded"
+                  type="Phone Number"
+                  placeholder="(xxx)xxx-xxxx"
+                />
+              </div>
+            </div> -->
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
